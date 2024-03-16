@@ -1397,7 +1397,7 @@ border-radius: 20px;}
 
 .footer-brand {
   position: relative;
-  padding: 50px 40px;
+ 
   background-position: center top;
   background-repeat: repeat;
 }
@@ -1619,6 +1619,9 @@ border-radius: 20px;}
     justify-content: space-around;
     margin-inline-start: auto;
   }
+  .btn-secondary01{
+    display: none;
+  }
 
 
 
@@ -1659,6 +1662,15 @@ border-radius: 20px;}
    * MENU
    */
 
+  .menu-card{
+    display: grid;
+    justify-items: center;
+  }
+  .menu-card a, p{
+    display: grid;
+    justify-items: center;
+  }
+
   .menu-card .title-wrapper {
     display: flex;
     justify-content: flex-start;
@@ -1682,6 +1694,8 @@ border-radius: 20px;}
     flex-grow: 1;
     border-block: 1px solid var(--white-alpha-20);
   }
+
+  .grid-list
 
 
 
@@ -1751,6 +1765,7 @@ border-radius: 20px;}
    * HEADER
    */
 
+  
   .navbar-list { margin-inline: 30px; }
 
 
